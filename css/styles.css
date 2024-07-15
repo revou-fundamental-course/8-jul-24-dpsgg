@@ -345,37 +345,6 @@ border: 2px solid red;
 
 
 
-
-
-.linkDownload {
-    position: fixed;
-    background-color: #d12322;
-    margin: 20px;
-    padding: 10px 10px;
-    left: -0px;
-    border-radius: 5px;
-    bottom: -0px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: all 0.43s ease-in-out;
-
-
-  }
-
-  
-/* .linkDownload i {
-    padding-left: 7px;
-  }
-  
-  .linkDownload:hover {
-    text-decoration: none;
-    background-color: black;
-  } */
-  
-
 @media (max-width: 700px){
 
 
