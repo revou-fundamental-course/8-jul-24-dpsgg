@@ -38,21 +38,21 @@ function countBmi(){
       
   var result = '';
   if(bmi<18.5){
-    result = 'Underweight';
+    result = 'Kekurangan Berat Badan';
      }else if(18.5<=bmi&&bmi<=24.9){
-    result = 'Healthy';
+    result = 'Sehat';
      }else if(25<=bmi&&bmi<=29.9){
-    result = 'Overweight';
+    result = 'Kelebihan Berat Badan';
      }else if(30<=bmi&&bmi<=34.9){
-    result = 'Obese';
+    result = 'Obesitas';
      }else if(35<=bmi){
-    result = 'Extremely obese';
+    result = 'Obesitas Ekstrim';
      }
 
 
 
 resultArea.style.display = "block";
-document.querySelector(".comment").innerHTML = `You are <span id="comment">${result}</span>`;
+document.querySelector(".comment").innerHTML = `Kamu <span id="comment">${result}</span>`;
 document.querySelector("#result").innerHTML = bmi.toFixed(2);
 
 }

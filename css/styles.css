@@ -15,11 +15,8 @@
     min-height: 100vh;
     background: rgb(97,138,254,0.9);
     }
-/* 
-  .container {
-    min-width: 250px;
-  } */
 
+/* Main Article  */
   .box {
     width: 500px;
     background: #fafafa;
@@ -44,7 +41,7 @@
         padding: 0 30px;
         
     }
-    
+    /* Form  */
     .input {
         background: #fff;
         box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
@@ -72,7 +69,7 @@
     }
 
 
-    
+    /* Form Article  */
     .inputW {
         background: #fff;
         box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
@@ -126,7 +123,7 @@
         font-family: "Nunito", sans-serif;
     }
 
-  
+  /* Result Article  */
 button.calculate {
     cursor: pointer;
     font-family: "Nunito", sans-serif;
@@ -176,7 +173,7 @@ button.calculate {
     border-radius: 7px;
     padding: 5px;
 }
-
+/* Footer Article  */
 .footer {
     display: flex;
     justify-content: start;
@@ -337,44 +334,4 @@ border: 2px solid red;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s;
-}
-
-.close:hover {
-  color: #d41111; 
-}
-
-
-
-@media (max-width: 700px){
-
-
-    .box {
-        width: 380px;
-    }
-
-
-
-    
-    .input label {
-
-        font-size: 18px;
-    }
-
-    .inputH label, .inputW label {
-        font-size: 14px;
-    }
-
-
-    .input input, .inputH input, .inputW input{
-        font-size: 24px;
-    }
-
-
-    .modal-content {
-
-      width: 380px;
-    }
-
-
-
 }
