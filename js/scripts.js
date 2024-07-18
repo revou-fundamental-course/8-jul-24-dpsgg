@@ -1,4 +1,6 @@
 // ini javascript
+
+// get element
 var age = document.getElementById("age");
 var height = document.getElementById("height");
 var weight = document.getElementById("weight");
@@ -12,7 +14,7 @@ modalText = document.querySelector("#modalText");
 var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0];
 
-
+// BMI calculation formulac 
 function calculate(){
  
   if(age.value=='' || height.value=='' || weight.value=='' || (male.checked==false && female.checked==false)){
@@ -50,7 +52,7 @@ function countBmi(){
      }
 
 
-
+// Result
 resultArea.style.display = "block";
 document.querySelector(".comment").innerHTML = `Kamu <span id="comment">${result}</span>`;
 document.querySelector("#result").innerHTML = bmi.toFixed(2);
